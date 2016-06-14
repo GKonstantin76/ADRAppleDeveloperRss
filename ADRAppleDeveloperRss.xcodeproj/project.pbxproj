@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B520FF321D0EBB6400098608 /* ADRCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B520FF311D0EBB6400098608 /* ADRCoreData.swift */; };
+		B520FF351D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B520FF331D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodeld */; };
+		B520FF3D1D0EBD3800098608 /* NewsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B520FF3B1D0EBD3800098608 /* NewsEntity.swift */; };
+		B52323761D0DA17000974566 /* ADRDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52323751D0DA17000974566 /* ADRDetailViewController.swift */; };
+		B52F76491D100F9D00762B9D /* NewsEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52F76481D100F9D00762B9D /* NewsEntity+CoreDataProperties.swift */; };
+		B5DB6F1F1D0C14F000CE5C88 /* ADRCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB6F1E1D0C14F000CE5C88 /* ADRCache.swift */; };
+		B5DB6F211D0C272400CE5C88 /* ADRItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DB6F201D0C272400CE5C88 /* ADRItemCell.swift */; };
 		B5DC89FB1D0B1D1A005B1BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC89FA1D0B1D1A005B1BB4 /* AppDelegate.swift */; };
-		B5DC89FD1D0B1D1A005B1BB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC89FC1D0B1D1A005B1BB4 /* ViewController.swift */; };
+		B5DC89FD1D0B1D1A005B1BB4 /* ADRMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC89FC1D0B1D1A005B1BB4 /* ADRMainController.swift */; };
 		B5DC8A001D0B1D1A005B1BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DC89FE1D0B1D1A005B1BB4 /* Main.storyboard */; };
 		B5DC8A021D0B1D1A005B1BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DC8A011D0B1D1A005B1BB4 /* Assets.xcassets */; };
 		B5DC8A051D0B1D1A005B1BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DC8A031D0B1D1A005B1BB4 /* LaunchScreen.storyboard */; };
+		B5DC8A0D1D0B1DCF005B1BB4 /* ADRServis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC8A0C1D0B1DCF005B1BB4 /* ADRServis.swift */; };
+		B5DC8A0F1D0B1EE3005B1BB4 /* ADRObjRss.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC8A0E1D0B1EE3005B1BB4 /* ADRObjRss.swift */; };
+		B5DC8A131D0B2300005B1BB4 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DC8A121D0B2300005B1BB4 /* GDataXMLNode.m */; };
+		FAD24ADACF4C6E729B2E7556 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FAB793A3F53CA52B1D41FD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F702A9053D66C9D8D6E30DF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2558AF23FFC183E8176B055 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B520FF311D0EBB6400098608 /* ADRCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRCoreData.swift; sourceTree = "<group>"; };
+		B520FF341D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ADRAppleDeveloperRss.xcdatamodel; sourceTree = "<group>"; };
+		B520FF3B1D0EBD3800098608 /* NewsEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsEntity.swift; sourceTree = "<group>"; };
+		B520FF3E1D0ED6CD00098608 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B520FF411D0EF59400098608 /* libMagicalRecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMagicalRecord.a; path = "../../../../../Library/Developer/Xcode/DerivedData/ADRAppleDeveloperRss-brhysatgjdoadegjlpnedpwxclng/Build/Products/Debug-iphonesimulator/libMagicalRecord.a"; sourceTree = "<group>"; };
+		B52323751D0DA17000974566 /* ADRDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRDetailViewController.swift; sourceTree = "<group>"; };
+		B52F76481D100F9D00762B9D /* NewsEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NewsEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B5DB6F1E1D0C14F000CE5C88 /* ADRCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRCache.swift; sourceTree = "<group>"; };
+		B5DB6F201D0C272400CE5C88 /* ADRItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRItemCell.swift; sourceTree = "<group>"; };
 		B5DC89F71D0B1D1A005B1BB4 /* ADRAppleDeveloperRss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADRAppleDeveloperRss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DC89FA1D0B1D1A005B1BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5DC89FC1D0B1D1A005B1BB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5DC89FC1D0B1D1A005B1BB4 /* ADRMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADRMainController.swift; sourceTree = "<group>"; };
 		B5DC89FF1D0B1D1A005B1BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5DC8A011D0B1D1A005B1BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5DC8A041D0B1D1A005B1BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5DC8A061D0B1D1A005B1BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DC8A0C1D0B1DCF005B1BB4 /* ADRServis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRServis.swift; sourceTree = "<group>"; };
+		B5DC8A0E1D0B1EE3005B1BB4 /* ADRObjRss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRObjRss.swift; sourceTree = "<group>"; };
+		B5DC8A111D0B2300005B1BB4 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		B5DC8A121D0B2300005B1BB4 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		B5DC8A161D0B251B005B1BB4 /* ADRAppleDeveloperRss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADRAppleDeveloperRss-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4FAB793A3F53CA52B1D41FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD24ADACF4C6E729B2E7556 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30E23C52FE36115F56A061BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2558AF23FFC183E8176B055 /* Pods.debug.xcconfig */,
+				0F702A9053D66C9D8D6E30DF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		849C6A45C39992C60F4A8CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B520FF411D0EF59400098608 /* libMagicalRecord.a */,
+				B520FF3E1D0ED6CD00098608 /* CoreData.framework */,
+				E4FAB793A3F53CA52B1D41FD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5DC89EE1D0B1D1A005B1BB4 = {
 			isa = PBXGroup;
 			children = (
+				B5DC8A161D0B251B005B1BB4 /* ADRAppleDeveloperRss-Bridging-Header.h */,
 				B5DC89F91D0B1D1A005B1BB4 /* ADRAppleDeveloperRss */,
 				B5DC89F81D0B1D1A005B1BB4 /* Products */,
+				849C6A45C39992C60F4A8CD0 /* Frameworks */,
+				30E23C52FE36115F56A061BB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,33 @@
 		B5DC89F91D0B1D1A005B1BB4 /* ADRAppleDeveloperRss */ = {
 			isa = PBXGroup;
 			children = (
+				B520FF3B1D0EBD3800098608 /* NewsEntity.swift */,
+				B5DC8A101D0B2300005B1BB4 /* GDataXML-ARC */,
 				B5DC89FA1D0B1D1A005B1BB4 /* AppDelegate.swift */,
-				B5DC89FC1D0B1D1A005B1BB4 /* ViewController.swift */,
+				B5DC89FC1D0B1D1A005B1BB4 /* ADRMainController.swift */,
 				B5DC89FE1D0B1D1A005B1BB4 /* Main.storyboard */,
 				B5DC8A011D0B1D1A005B1BB4 /* Assets.xcassets */,
 				B5DC8A031D0B1D1A005B1BB4 /* LaunchScreen.storyboard */,
 				B5DC8A061D0B1D1A005B1BB4 /* Info.plist */,
+				B5DC8A0C1D0B1DCF005B1BB4 /* ADRServis.swift */,
+				B5DC8A0E1D0B1EE3005B1BB4 /* ADRObjRss.swift */,
+				B5DB6F1E1D0C14F000CE5C88 /* ADRCache.swift */,
+				B5DB6F201D0C272400CE5C88 /* ADRItemCell.swift */,
+				B52323751D0DA17000974566 /* ADRDetailViewController.swift */,
+				B520FF311D0EBB6400098608 /* ADRCoreData.swift */,
+				B520FF331D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodeld */,
+				B52F76481D100F9D00762B9D /* NewsEntity+CoreDataProperties.swift */,
 			);
 			path = ADRAppleDeveloperRss;
+			sourceTree = "<group>";
+		};
+		B5DC8A101D0B2300005B1BB4 /* GDataXML-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				B5DC8A111D0B2300005B1BB4 /* GDataXMLNode.h */,
+				B5DC8A121D0B2300005B1BB4 /* GDataXMLNode.m */,
+			);
+			path = "GDataXML-ARC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5DC8A091D0B1D1A005B1BB4 /* Build configuration list for PBXNativeTarget "ADRAppleDeveloperRss" */;
 			buildPhases = (
+				DF91F390811FDB8F042DDFAE /* Check Pods Manifest.lock */,
 				B5DC89F31D0B1D1A005B1BB4 /* Sources */,
 				B5DC89F41D0B1D1A005B1BB4 /* Frameworks */,
 				B5DC89F51D0B1D1A005B1BB4 /* Resources */,
+				014BD02B3BD5F5A132C6C365 /* Embed Pods Frameworks */,
+				D51C1C4EA1B5F4F0B307E4BF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +203,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		014BD02B3BD5F5A132C6C365 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51C1C4EA1B5F4F0B307E4BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF91F390811FDB8F042DDFAE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5DC89F31D0B1D1A005B1BB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DC89FD1D0B1D1A005B1BB4 /* ViewController.swift in Sources */,
+				B5DB6F211D0C272400CE5C88 /* ADRItemCell.swift in Sources */,
+				B520FF3D1D0EBD3800098608 /* NewsEntity.swift in Sources */,
+				B52323761D0DA17000974566 /* ADRDetailViewController.swift in Sources */,
+				B52F76491D100F9D00762B9D /* NewsEntity+CoreDataProperties.swift in Sources */,
+				B520FF351D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodeld in Sources */,
+				B5DB6F1F1D0C14F000CE5C88 /* ADRCache.swift in Sources */,
+				B5DC8A0F1D0B1EE3005B1BB4 /* ADRObjRss.swift in Sources */,
+				B5DC89FD1D0B1D1A005B1BB4 /* ADRMainController.swift in Sources */,
+				B5DC8A131D0B2300005B1BB4 /* GDataXMLNode.m in Sources */,
+				B5DC8A0D1D0B1DCF005B1BB4 /* ADRServis.swift in Sources */,
+				B520FF321D0EBB6400098608 /* ADRCoreData.swift in Sources */,
 				B5DC89FB1D0B1D1A005B1BB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,23 +380,57 @@
 		};
 		B5DC8A0A1D0B1D1A005B1BB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2558AF23FFC183E8176B055 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MagicalRecord\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = ADRAppleDeveloperRss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MagicalRecord\"",
+					"-framework",
+					"\"CoreData\"",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = IDK.ADRAppleDeveloperRss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADRAppleDeveloperRss-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		B5DC8A0B1D0B1D1A005B1BB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F702A9053D66C9D8D6E30DF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/MagicalRecord\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = ADRAppleDeveloperRss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MagicalRecord\"",
+					"-framework",
+					"\"CoreData\"",
+					"-lxml2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = IDK.ADRAppleDeveloperRss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADRAppleDeveloperRss-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,8 +453,22 @@
 				B5DC8A0B1D0B1D1A005B1BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B520FF331D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B520FF341D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodel */,
+			);
+			currentVersion = B520FF341D0EBC4C00098608 /* ADRAppleDeveloperRss.xcdatamodel */;
+			path = ADRAppleDeveloperRss.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B5DC89EF1D0B1D1A005B1BB4 /* Project object */;
 }
